@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: grey;
+}
+
+.big-img img {
+    z-index: 1;
+    width: 1350px;
+    height: 625px;
+    z-index: 1;
+}
+
+h1 {
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 400px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 59px;
+    color: white;
+}
+
+h1 > span {
+    color: crimson;
+}
+
+h2 {
+    width: 400px;
+    font-family: sans-serif;
+    color: crimson;
+    margin-top: -390px;
+    margin-left: 400px;
+    position: absolute;
+}
+
+.ful {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 400px;
+    color: wheat;
+    font-family: sans-serif;
+}
+
+.blue {
+    color: blue;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.white {
+    color: white;
+}
+
+.red {
+    color: red;
+}
+
+.blog {
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+    margin-left: 200px;
+    border-radius: 60px;
+}
+
+.github {
+    margin-left: 170px;
+    margin-top: 170px;
+    color: white;
+}
+
+.blog:hover {
+    background-color: cadetblue;
+    transition: 0.3s;
+}
+
+.open {
+    width: 150px;
+    height: 50px;
+    background-color: cadetblue;
+    text-align: center;
+    align-items: center;
+    border-radius: 100px;
+    margin-left: 700px;
+    margin-top: -200px
+}
+
+h4 {
+    position: absolute;
+    margin-left: 27px;
+    margin-top: 13px;
+    font-family: sans-serif;
+}
+
+.open:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.instagram {
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+    background-color: aquamarine;
+    color: white;
+    margin-top: 210px;
+    margin-left: 200px;
+}
+
+.instagram:hover {
+    background-color: cadetblue;
+    transition: 0.3s;
+}
+
+.insta-icon {
+    margin-left: 170px;
+    margin-top: 170px;
+}
+
+.open-2 {
+    width: 150px;
+    height: 50px;
+    background-color: cadetblue;
+    text-align: center;
+    align-items: center;
+    border-radius: 100px;
+    margin-left: 700px;
+    margin-top: -200px;
+}
+
+.open-2:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu {
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    background-color: gray;
+}
